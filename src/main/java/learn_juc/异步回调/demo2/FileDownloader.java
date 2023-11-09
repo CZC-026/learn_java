@@ -1,7 +1,5 @@
 package learn_juc.异步回调.demo2;
 
-import java.io.StringReader;
-
 public class FileDownloader {
     public void download(String url, DownloadCallback callback) {
         Thread a = new Thread(()->{
