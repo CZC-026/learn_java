@@ -24,6 +24,7 @@ public class TimePrinter implements ActionListener {
     public static void main(String[] args) {
         var listener = new TimePrinter();
         //construct a timer that calls the listener,delay in milliseconds
+        //提供一个函数，定时器定时调用函数（java以对象为基础），定时传入对象，调用对象的方法
         var timer = new Timer(1000,listener);
         timer.start();
         JOptionPane.showMessageDialog(null,"Quit program?");

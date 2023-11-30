@@ -24,6 +24,10 @@ class Employee implements java.lang.Comparable {
         if(other == null) {
             throw new NullPointerException();
         }
+        //其他的写法
+        if(this.getClass() != other.getClass()){
+            throw new ClassCastException();
+        }
         if(!(other instanceof Employee)) {
             throw new ClassCastException();
         }
