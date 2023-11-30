@@ -1,4 +1,4 @@
-package learn_juc.死锁;
+package learn_juc.锁.死锁;
 
 public class DeadLock1 {
     public static void main(String[] args) {
