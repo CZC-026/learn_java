@@ -1,10 +1,9 @@
 package com.czc.controller;
 
-import com.czc.entity.User;
+
 import com.czc.service.UserService;
+import com.czc.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Conditional;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

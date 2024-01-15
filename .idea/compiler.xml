@@ -9,10 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="learn_java" />
         <module name="demo3" />
+        <module name="ComFilterAndIntecepter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ComFilterAndIntecepter" target="17" />
       <module name="learn_spring" target="17" />
     </bytecodeTargetLevel>
   </component>

@@ -1,8 +1,8 @@
-package com.czc.config;
+package learn_spring.ComFilterAndIntecepter.src.main.java.com.czc.config;
 
-import com.czc.filter.UserInfoFilter;
-import com.czc.interceptor.UserInfoInterceptor;
+
 import jakarta.annotation.Resource;
+import learn_spring.ComFilterAndIntecepter.src.main.java.com.czc.interceptor.UserInfoInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
