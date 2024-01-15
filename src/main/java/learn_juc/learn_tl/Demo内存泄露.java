@@ -13,7 +13,7 @@ class ThreadLocalDemo{
         private Long[] a = new Long[1024*1024];
     }
 //    final static ExecutorService executorService = Executors.newFixedThreadPool(16);
-final static ExecutorService executorService = new ThreadPoolExecutor(5,5,1, TimeUnit.MINUTES,new LinkedBlockingQueue<>(10)));
+    final static ExecutorService executorService = new ThreadPoolExecutor(5,5,1, TimeUnit.MINUTES,new LinkedBlockingQueue<>(10));
     final static ThreadLocal<LocalVariable> localVariable = new ThreadLocal<>();
 
     public static void main(String[] args) throws InterruptedException {
@@ -28,6 +28,6 @@ final static ExecutorService executorService = new ThreadPoolExecutor(5,5,1, Tim
         }
         System.out.println("pool execute over");
     }
-}
+
 }
 

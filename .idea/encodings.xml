@@ -2,5 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ComFilterAndIntecepter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/learn_design_patterns/chain_responsibility/demo3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/learn_spring/ComFilterAndIntecepter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/learn_spring/src/main/java" charset="UTF-8" />
   </component>
 </project>

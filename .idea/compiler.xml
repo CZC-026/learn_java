@@ -8,14 +8,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="learn_java" />
-        <module name="ComFilterAndIntecepter" />
+        <module name="demo3" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ComFilterAndIntecepter" target="17" />
+      <module name="learn_spring" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ComFilterAndIntecepter" options="-parameters" />
+      <module name="demo3" options="-parameters" />
       <module name="learn_java" options="" />
+      <module name="learn_spring" options="-parameters" />
     </option>
   </component>
 </project>

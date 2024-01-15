@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ComFilterAndIntecepter/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learn_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learn_design_patterns/chain_responsibility/demo3/pom.xml" />
       </list>
     </option>
   </component>
