@@ -1,4 +1,4 @@
-package learn_spring.ComFilterAndIntecepter.src.main.java.com.czc.interceptor;
+package com.czc.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

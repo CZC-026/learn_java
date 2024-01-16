@@ -1,4 +1,4 @@
-package learn_spring.ComFilterAndIntecepter.src.main.java.com.czc.config;
+package com.czc.config;
 
 import com.czc.filter.UserInfoFilter;
 import jakarta.servlet.FilterRegistration;

@@ -1,4 +1,4 @@
-package learn_spring.ComFilterAndIntecepter.src.main.java.com.czc;
+package com.czc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
